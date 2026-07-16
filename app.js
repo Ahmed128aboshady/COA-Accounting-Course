@@ -310,7 +310,7 @@ document.addEventListener('DOMContentLoaded', () => {
 - الهاتف: ${phoneNumber}
 - مستواي المحاسبي: ${accountingLevel}
 
-أرغب في الاستفادة من الخصم (1700 جنيه بدلاً من 3500) والحصول على الماتريال وتفعيل حسابي.`;
+أرغب في الاستفادة من الخصم (1000 جنيه بدلاً من 3500) والحصول على الماتريال وتفعيل حسابي.`;
 
             const encodedMessage = encodeURIComponent(baseMessage);
             generatedWhatsAppUrl = `https://wa.me/${academyNumber}?text=${encodedMessage}`;
