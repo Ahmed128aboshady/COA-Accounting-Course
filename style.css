@@ -925,7 +925,7 @@ body.dark-theme .theme-toggle:hover {
     bottom: -15px;
     left: 20px;
     background-color: var(--accent);
-    color: var(--text-dark);
+    color: #FFF;
     padding: 10px 20px;
     border-radius: 30px;
     font-size: 0.85rem;
