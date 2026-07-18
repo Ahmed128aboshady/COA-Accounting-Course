@@ -315,6 +315,13 @@ document.addEventListener('DOMContentLoaded', () => {
             const encodedMessage = encodeURIComponent(baseMessage);
             generatedWhatsAppUrl = `https://wa.me/${academyNumber}?text=${encodedMessage}`;
 
+            // Push lead conversion event to Google Tag Manager dataLayer
+            window.dataLayer = window.dataLayer || [];
+            window.dataLayer.push({
+                'event': 'accounting_lead_submitted',
+                'course_name': 'Accounting Course (PFA)'
+            });
+
             // Show Success Modal Popup
             if (successModal) {
                 successModal.classList.add('active');
